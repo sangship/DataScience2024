@@ -1,0 +1,134 @@
+Microsoft Windows [Version 10.0.26257.5000]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\sangs>mkdir github
+하위 디렉터리 또는 파일 github이(가) 이미 있습니다.
+
+C:\Users\sangs>cd github
+
+C:\Users\sangs\github>
+C:\Users\sangs\github>
+C:\Users\sangs\github>
+C:\Users\sangs\github>git clone https://github.com/sangship/DataScience2024.git
+Cloning into 'DataScience2024'...
+warning: You appear to have cloned an empty repository.
+
+C:\Users\sangs\github>dir /w
+ C 드라이브의 볼륨에는 이름이 없습니다.
+ 볼륨 일련 번호: 3432-585B
+
+ C:\Users\sangs\github 디렉터리
+
+[.]               [..]              [DataScience2024]
+               0개 파일                   0 바이트
+               3개 디렉터리  151,457,226,752 바이트 남음
+
+C:\Users\sangs\github>cd datascience2024
+
+C:\Users\sangs\github\DataScience2024>dir /w
+ C 드라이브의 볼륨에는 이름이 없습니다.
+ 볼륨 일련 번호: 3432-585B
+
+ C:\Users\sangs\github\DataScience2024 디렉터리
+
+[.]  [..]
+               0개 파일                   0 바이트
+               2개 디렉터리  151,456,768,000 바이트 남음
+
+C:\Users\sangs\github\DataScience2024>dir /w
+ C 드라이브의 볼륨에는 이름이 없습니다.
+ 볼륨 일련 번호: 3432-585B
+
+ C:\Users\sangs\github\DataScience2024 디렉터리
+
+[.]            [..]           [test1]        testmemo.txt
+               1개 파일                   0 바이트
+               3개 디렉터리  151,457,431,552 바이트 남음
+
+C:\Users\sangs\github\DataScience2024>git add testmemo.txt
+
+C:\Users\sangs\github\DataScience2024>
+C:\Users\sangs\github\DataScience2024>
+C:\Users\sangs\github\DataScience2024>git commint -m "testmem.txt를 생성합니다."
+git: 'commint' is not a git command. See 'git --help'.
+
+The most similar command is
+        commit
+
+C:\Users\sangs\github\DataScience2024>git commit -m "testmem.txt를 생성합니다."
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'sangs@WIN-5Q5OJUM38PR.(none)')
+
+C:\Users\sangs\github\DataScience2024>git commit -m "testmemo.txt를 생성합니다."
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'sangs@WIN-5Q5OJUM38PR.(none)')
+
+C:\Users\sangs\github\DataScience2024>git push
+error: src refspec refs/heads/main does not match any
+error: failed to push some refs to 'https://github.com/sangship/DataScience2024.git'
+
+C:\Users\sangs\github\DataScience2024>git config --global user.name "sangship"
+
+C:\Users\sangs\github\DataScience2024>git commit -m "testmemo.txt를 생성합니다."
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'sangs@WIN-5Q5OJUM38PR.(none)')
+
+C:\Users\sangs\github\DataScience2024>git config --global user.email "sangship@gmail.com"
+
+C:\Users\sangs\github\DataScience2024>git commit -m "testmemo.txt를 생성합니다."
+[main (root-commit) a416bc9] testmemo.txt를 생성합니다.
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 testmemo.txt
+
+C:\Users\sangs\github\DataScience2024>git push
+info: please complete authentication in your browser...
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 240 bytes | 240.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/sangship/DataScience2024.git
+ * [new branch]      main -> main
+
+C:\Users\sangs\github\DataScience2024>
+
+
+
+
+
+추가 변경함
+
+
+업데이트
